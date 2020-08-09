@@ -1,4 +1,0 @@
-SELECT Person.FirstName, Person.LastName, Address.City, Address.State
-FROM person
-LEFT JOIN person
-ON person.personId = Address.PersonId
