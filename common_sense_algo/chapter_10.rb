@@ -27,7 +27,6 @@ def reverse_string(string)
   last = ary.pop
 
   if ary.length > 0
-    binding.pry
     ary.unshift(last)
     puts last << reverse_string(ary.join)
   end

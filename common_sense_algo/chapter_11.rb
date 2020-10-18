@@ -37,6 +37,3 @@ def fibonacci(n)
 
   fibonacci(n - 1) + fibonacci(n - 2)
 end
-
-# puts fibonacci(10)
-# puts triangular_numbers(5) #28
